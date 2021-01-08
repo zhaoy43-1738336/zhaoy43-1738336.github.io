@@ -5,14 +5,32 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<h1></h1>
-		<iframe width="300" height="260" src="https://www.youtube.com/embed/SlrgBMYgKA0" start=180></iframe>
+		<h1 align="center">INFO 101 AB</h1>
+		<h2 align="center">Jonathan Zhao's Practice (zhaoy43-1738336)</h2>
 
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5374.962444759039!2d-122.30599354089355!3d47.655647206999966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490148d64534c71%3A0xc91793fd02335246!2sHusky%20Union%20Building!5e0!3m2!1sen!2sus!4v1609983974883!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-		
 		<div class="container">
+			<strong>Our Professor is coming!</strong>
+			<p>Click to start at minute 3</p>
+			<iframe class="iframe-box" src="https://www.youtube.com/embed/SlrgBMYgKA0?start=180&cc_lang_pref=en&cc_load_policy=1"></iframe>
+		</div>
+
+		<div class="container">
+			<strong>Our school buildings are here! (closed though)</strong>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5374.962444759039!2d-122.30599354089355!3d47.655647206999966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490148d64534c71%3A0xc91793fd02335246!2sHusky%20Union%20Building!5e0!3m2!1sen!2sus!4v1609983974883!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="iframe-box"></iframe>
+		</div>
+
+
+		<div class="container">
+			<strong>This is a video I made about our school!</strong>
+			<video width = 100% controls>
+				<source src="resources/UW_redSquare.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		<div class="container">
+			<strong>The current time is...</strong>
 			<h1 id="time"></h1>
-			<button onclick="showDate()">Show Date</button>
+			<button class="button" onclick="showDate()">Show Date</button>
 		</div>
 
 		<script type="text/javascript">
