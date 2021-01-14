@@ -24,5 +24,33 @@
     	<a href="https://www.orvis.com/siberian-husky">
     		<img src="https://cdn.orvis.com/images/DBS_SibHusky.jpg" alt="a second picture of husky" title="Husky-Cool" style="width:300px;height:140px;margin:5px">
     	</a>
+
+		<div>
+			<h2>The current time is...</h2>
+			<p>This is a button I've used in the previous workshop.</p>
+			<h1 id="time"></h1>
+			<button class="button" onclick="showDate()">Show Date</button>
+		</div>
+
+		<script type="text/javascript">
+			function showDate(){
+				var time = document.getElementById('time');
+				time.innerHTML = Date();
+			}
+		</script>
+
+		<aside>
+			<p>This is an <b>aside tag</b>, though I have not linked it with any css.</p>
+		</aside>
+
+		<address>
+			(Of course this is an address tag)
+			902 NE 43 rd St,
+			Seattle,
+			Washington,
+			98105
+		</address>
+
+		<fonter>This is a footer</fonter>
     </body>
 </html>
