@@ -1,1 +1,55 @@
+body{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	font: normal 16px "Times New Roman",Times,serif;
+}
 
+.small-img{
+	width: 50px;
+	height: 50px;
+}
+
+.pictures{
+	width: 60%;
+	margin: 20px 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+ 	font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+ 	border:3px dotted #ccc;
+ 	padding:20px;
+ 	margin:20px 0;
+ }
+
+.box-2{
+	border: 3px solid #ccc;
+ 	border-radius: 25px;
+ 	padding:20px;
+ 	margin:20px 0;
+ }
+
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#specialFonts{
+	font-family: "Lucida Console", "Courier New", monospace;
+}
